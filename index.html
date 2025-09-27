@@ -16,55 +16,89 @@
   <body>
     <div class="page">
       <header class="header">
-        <h1>✦ Spots</h1>
+        <img src="./images/Logo.svg" alt="Spot Logo" class="header__logo" />
       </header>
       <main class="content">
-        <section class="profile">
-          <div class="profile__info">
-            <img src="./images/profile.jpg" alt="Profile picture" class="profile__avatar" />
-            <div class="profile__details">
-              <h2 class="profile__name">Bessie Coleman</h2>
-              <p class="profile__role">Civil Aviator</p>
-              <button class="profile__edit-button">✎ Edit Profile</button>
-            </div>
-          </div>
-          <button class="profile__add-button">+ New Post</button>
-        </section>
-        <section class="cards">
-          <article class="card">
-            <img src="./images/val-thorens.jpg" alt="Val Thorens" class="card__image" />
-            <h3 class="card__title">Val Thorens</h3>
-          </article>
+        <section class="profile page__section">
+  <img
+    src="./images/avatar.jpg"
+    alt="Profile picture"
+    class="profile__avatar"
+  />
+  <div class="profile__column">
+    <h1 class="profile__name">Bessie Coleman</h1>
+    <p class="profile__description">Civil Aviator</p>
+    <button class="profile__edit-button">
+      <img src="./images/edit profile image.svg" alt="Edit profile icon" />
+      Edit Profile
+    </button>
+  </div>
+  <button class="profile__add-button">
+    <img src="./images/plus icon.svg" alt="Plus icon" />
+    New Post
+  </button>
+</section>
+       <section class="cards page__section">
+  <ul class="cards__list">
+    <li class="card">
+      <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+        alt="Val Thorens" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Val Thorens</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
 
-          <article class="card">
-            <img src="./images/restaurant.jpg" alt="Restaurant terrace" class="card__image" />
-            <h3 class="card__title">Restaurant terrace</h3>
-          </article>
+    <li class="card">
+      <img src="./images/2-photo-by-ceiline-from-pexels.jpg"
+        alt="Restaurant terrace" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Restaurant terrace</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
 
-          <article class="card">
-            <img src="./images/cafe.jpg" alt="Outdoor cafe" class="card__image" />
-            <h3 class="card__title">An outdoor cafe</h3>
-          </article>
+    <li class="card">
+      <img src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+        alt="Outdoor cafe" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">An outdoor cafe</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
 
-          <article class="card">
-            <img src="./images/bridge.jpg" alt="Suspension bridge" class="card__image" />
-            <h3 class="card__title">A very long bridge, over the forest…</h3>
-          </article>
+    <li class="card">
+      <img src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
+        alt="Suspension bridge" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">A very long bridge, over the forest…</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
 
-          <article class="card">
-            <img src="./images/tunnel.jpg" alt="Tunnel with morning light" class="card__image" />
-            <h3 class="card__title">Tunnel with morning light</h3>
-          </article>
+    <li class="card">
+      <img src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+        alt="Tunnel with morning light" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Tunnel with morning light</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
 
-          <article class="card">
-            <img src="./images/mountain-house.jpg" alt="Mountain house" class="card__image" />
-            <h3 class="card__title">Mountain house</h3>
-          </article>
-        </section>
+    <li class="card">
+      <img src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+        alt="Mountain house" class="card__image" />
+      <div class="card__content">
+        <h2 class="card__title">Mountain house</h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
+  </ul>
+</section>
       </main>
-      <footer class="footer">
-        <p>Tavion Harris 2025</p>
-      </footer>
-    </div>
+    <footer class="footer">
+  <p class="footer__text">2023 © Spots</p>
+</footer>
   </body>
 </html>
+

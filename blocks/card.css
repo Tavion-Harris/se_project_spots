@@ -21,6 +21,21 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+.card__title {
+width: 190;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+top: 425px;
+ font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #212121;
 
 
 }
@@ -30,3 +45,5 @@
   height: 288px;
 }
 }
+
+

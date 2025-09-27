@@ -1,21 +1,27 @@
 # Project 3: Spots
 
-### Overview  
+# Spots learning to make a responsive website 
+ “This is a website I’m building as a learning project to practice responsive design. The goal is to make sure it looks good and functions well on any device — whether you’re viewing it on a phone, a tablet, or a computer.”
 
-* Intro  
-* Figma  
-* Images  
+## How did i do it ?
+i used the following 
+Flexbox Layouts
+CSS Grid
+Responsive Design with Media Queries
+Semantic HTML
+Reusable BEM Naming Convention
+
+
+This project uses modern frontend techniques to create a clean and responsive layout. The structure is built with semantic HTML and styled using the BEM naming convention for organized, reusable CSS. Layouts are managed with Flexbox (for aligning profile elements and buttons) and CSS Grid (for the responsive card gallery). To ensure the site looks great on any device, media queries adjust the design for smaller screens, making the website fully responsive across phones, tablets, and desktops.
+
+
+## Deployment 
+
+This webpage is deployed to Githubpages
+
+Deployment Link - 
+
   
-**Intro**
+
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
